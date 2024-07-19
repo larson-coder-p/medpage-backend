@@ -1,9 +1,31 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "patients": [
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "age": 52,
+      "gender": "Female",
+      "heartRate": 82,
+      "sugarLevels": 105,
+      "diagnosis": "Diabetes"
+    },
+    {
+      "id": "4",
+      "name": "Bob Brown",
+      "age": 29,
+      "gender": "Male",
+      "heartRate": 72,
+      "sugarLevels": 90,
+      "diagnosis": "Asthma"
+    },
+    {
+      "id": "5",
+      "name": "Charlie Green",
+      "age": 60,
+      "gender": "Male",
+      "heartRate": 85,
+      "sugarLevels": 115,
+      "diagnosis": "Heart Disease"
+    }
+  ]
 }
